@@ -6,7 +6,7 @@ getPatAddress = input("Enter new patient address: ")
 getPatPhno = input("Enter new patient phone number: ")
 getPatEmail = input("Enter new patient email: ")
 getPatPincode = input("Enter new patient pincode: ")
-data.execute("update patient set patgitname='"+getPatName+"',pataddress='"+getPatAddress+"',patphno="+getPatPhno+",\
+data.execute("update patient set patname='"+getPatName+"',pataddress='"+getPatAddress+"',patphno="+getPatPhno+",\
              patemail='"+getPatEmail+"',patpincode="+getPatPincode+" where id="+getId)
 
 data.commit()
